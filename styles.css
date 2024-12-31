@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Key Competencies */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Professional Experience */
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience-item ul li {
+    font-size: 16px;
+}
+
+/* Projects */
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project-item ul li {
+    font-size: 16px;
+}
+
+/* Education */
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
